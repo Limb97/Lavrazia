@@ -29,25 +29,25 @@ relig.addEventListener("click",() => {
 })
 
 polit.addEventListener("click",() => {
-    img.src ="maps/Lavrazia_politicheskaya_karta_igroki.png"
+    img.src ="maps/polit.png"
 })
 
 tc.addEventListener("click",() => {
-    img.src ="maps/Lavrazia_karta_TTs.png"
+    img.src ="maps/tc.png"
 })
 
 region.addEventListener("click",() => {
-    img.src ="maps/Lavrazia_karta_regionov.png"
+    img.src ="maps/region.png"
 })
 
 landsh.addEventListener("click",() => {
-    img.src ="Lavrazia_resursnaya_karta.png"
+    img.src ="landsh.png"
 })
 
 ethic.addEventListener("click",() => {
-    img.src ="Lavrazia_etnicheskaya_karta.png"
+    img.src ="ethic.png"
 })
 
 climate.addEventListener("click",() => {
-    img.src="Lavrazia_klimaticheskaya_karta.png"
+    img.src="climate.png"
 })
