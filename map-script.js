@@ -21,10 +21,6 @@ img.addEventListener("click", () => {
     }
 });
 
-relig.addEventListener("click", () => {
-    img.src = "maps/relig.png";
-});
-
 polit.addEventListener("click", () => {
     img.src = "maps/polit.png";
 });
