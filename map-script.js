@@ -34,13 +34,13 @@ region.addEventListener("click", () => {
 });
 
 landsh.addEventListener("click", () => {
-    img.src = "landsh.png";
+    img.src = "maps/landsh.png";
 });
 
 ethnic.addEventListener("click", () => {
-    img.src = "ethnic.png"; 
+    img.src = "maps/ethnic.png"; 
 });
 
 climate.addEventListener("click", () => {
-    img.src = "climate.png";
+    img.src = "maps/climate.png";
 });
