@@ -8,7 +8,6 @@ const landsh = document.getElementById("landsh");
 const ethnic = document.getElementById("ethnic");
 const climate = document.getElementById("climate");
 const tc = document.getElementById("tc");
-const relig = document.getElementById("relig"); // Убедитесь, что этот элемент существует
 
 img.addEventListener("click", () => {
     if (imgSize == 1) {
@@ -43,7 +42,7 @@ landsh.addEventListener("click", () => {
 });
 
 ethnic.addEventListener("click", () => {
-    img.src = "ethnic.png"; // Исправлено на ethnic
+    img.src = "ethnic.png"; 
 });
 
 climate.addEventListener("click", () => {
