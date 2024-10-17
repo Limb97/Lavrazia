@@ -44,8 +44,8 @@ landsh.addEventListener("click",() => {
     img.src ="landsh.png"
 })
 
-ethic.addEventListener("click",() => {
-    img.src ="ethic.png"
+ethnic.addEventListener("click",() => {
+    img.src ="ethnic.png"
 })
 
 climate.addEventListener("click",() => {
