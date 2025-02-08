@@ -4,16 +4,12 @@ const img = document.getElementById("img");
 const buildings = document.getElementById("buildings");
 const fpvp = document.getElementById("fpVp");
 const size = document.getElementById("size");
-const hRE = document.getElementById("hRE");
 const fp2 = document.getElementById("fp2");
 const tech = document.getElementById("tech");
 const perki_praviteley = document.getElementById("perki_praviteley");
 const sovetniki = document.getElementById("sovetniki");
-const prioritety_razvitia = document.getElementById("prioritety_razvitia");
-const units = document.getElementById("units");
 const weather = document.getElementById("weather");
 const relig_dogmaty = document.getElementById("relig_dogmaty");
-const resursy = document.getElementById("resursy");
 const ivents = document.getElementById("ivents");
 const perelom = document.getElementById("perelom");
 const traditsii = document.getElementById("traditsii");
@@ -23,6 +19,7 @@ const social_innovatsii = document.getElementById("social_innovatsii");
 const zakon = document.getElementById("zakon");
 const limit = document.getElementById("limit");
 const skrit_perki = document.getElementById("skrit_perki");
+const units = document.getElementById("units");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -65,8 +62,8 @@ zakon.addEventListener("click",() => {
 
 traditsii.addEventListener("click",() => {
     img.src ="tables/traditsii.png"
-    img.style.width = "80%"
-    img.style.height = "80%"
+    img.style.width = "100%"
+    img.style.height = "100%"
 });
 
 buildings.addEventListener("click",() => {
@@ -85,12 +82,6 @@ ivents.addEventListener("click", () => {
     img.src = "tables/ivents.png"
     img.style.width = "40%"
     img.style.height = "40%"
-});
-
-resursy.addEventListener("click",() => {
-    img.src ="tables/resursy.png"
-    img.style.width = "70%"
-    img.style.height = "70%"
 });
 
 fpvp.addEventListener("click",() => {
@@ -129,19 +120,13 @@ sovetniki.addEventListener("click",() => {
     img.style.height = "75%"
 });
 
-prioritety_razvitia.addEventListener("click",() => {
-    img.src="tables/prioritety_razvitia.png"
-    img.style.width = "40%"
-    img.style.height = "40%"
-});
-
 weather.addEventListener("click",() => {
     img.src="tables/weather.png"
     img.style.width = "75%"
     img.style.height = "75%"
 });
 
-relig_dogmaty.addEventListener("click",() => {
+Dogmaty.addEventListener("click",() => {
     img.src = "tables/relig_dogmaty.png"
     img.style.width = "55%"
     img.style.height = "55%"
