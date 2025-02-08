@@ -51,7 +51,7 @@ skrit_perki.addEventListener("click",() => {
 });
 
 limit.addEventListener("click",() => {
-    img.src ="tables/limit.jpg"
+    img.src ="tables/limit.png"
     img.style.width = "100%"
     img.style.height = "100%"
 });
