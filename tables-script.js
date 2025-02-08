@@ -65,8 +65,8 @@ zakon.addEventListener("click",() => {
 
 traditsii.addEventListener("click",() => {
     img.src ="tables/traditsii.png"
-    img.style.width = "40%"
-    img.style.height = "40%"
+    img.style.width = "80%"
+    img.style.height = "80%"
 });
 
 buildings.addEventListener("click",() => {
