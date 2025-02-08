@@ -82,25 +82,25 @@ perelom.addEventListener("click", () => {
 });
 
 ivents.addEventListener("click", () => {
-    img.src = "tables/ivents.jpg"
+    img.src = "tables/ivents.png"
     img.style.width = "40%"
     img.style.height = "40%"
 });
 
 resursy.addEventListener("click",() => {
-    img.src ="tables/resursy.jpg"
+    img.src ="tables/resursy.png"
     img.style.width = "70%"
     img.style.height = "70%"
 });
 
 fpvp.addEventListener("click",() => {
-    img.src="tables/FP.jpg"
+    img.src="tables/FP.png"
     img.style.width = "80%"
     img.style.height = "80%"
 });
 
 size.addEventListener("click",() => {
-    img.src="tables/size.jpg"
+    img.src="tables/size.png"
     img.style.width = "40%"
     img.style.height = "40%"
 });
@@ -112,7 +112,7 @@ tech.addEventListener("click",() => {
 });
 
 fp2.addEventListener("click",() => {
-    img.src="tables/FP2.jpg"
+    img.src="tables/FP2.png"
     img.style.width = "80%"
     img.style.height = "80%"
 });
@@ -136,7 +136,7 @@ prioritety_razvitia.addEventListener("click",() => {
 });
 
 weather.addEventListener("click",() => {
-    img.src="tables/weather.jpg"
+    img.src="tables/weather.png"
     img.style.width = "75%"
     img.style.height = "75%"
 });
