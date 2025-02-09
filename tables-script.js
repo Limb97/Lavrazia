@@ -9,7 +9,7 @@ const tech = document.getElementById("tech");
 const perki_praviteley = document.getElementById("perki_praviteley");
 const sovetniki = document.getElementById("sovetniki");
 const weather = document.getElementById("weather");
-const relig_dogmaty = document.getElementById("relig_dogmaty");
+const Dogmaty = document.getElementById("relig_dogmaty");
 const ivents = document.getElementById("ivents");
 const perelom = document.getElementById("perelom");
 const traditsii = document.getElementById("traditsii");
@@ -127,7 +127,7 @@ weather.addEventListener("click",() => {
 });
 
 Dogmaty.addEventListener("click",() => {
-    img.src = "tables/relig_dogmaty.png"
+    img.src = "tables/Dogmaty.png"
     img.style.width = "55%"
     img.style.height = "55%"
 });
